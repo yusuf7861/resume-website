@@ -124,8 +124,8 @@ function HeroSection() {
           transition={{ duration: 0.5 }}
         >
         <Image
-          src="/placeholder.svg"
-          alt="John Doe"
+          src="/profile_image.jpg"
+          alt="profile"
           width={200}
           height={200}
           className="rounded-full w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-cover mx-auto"
@@ -137,7 +137,7 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          John Doe
+          Yusuf Jamal
         </motion.h1>
         <motion.h2
           className="mb-6 text-lg sm:text-xl text-gray-600"
@@ -145,7 +145,7 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Full Stack Developer
+          Java Full Stack Developer
         </motion.h2>
         <motion.p
           className="mb-8 max-w-2xl mx-auto text-gray-600 text-sm sm:text-base"
@@ -153,8 +153,7 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          Passionate about creating elegant, efficient, and user-friendly web applications. 
-          With 5+ years of experience in full-stack development, I specialize in React, Node.js, and cloud technologies.
+          Passionate about creating elegant, efficient, and user-friendly web applications.I specialize in Java Springboot and cloud technologies.
         </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4"
