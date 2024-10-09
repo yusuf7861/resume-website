@@ -204,23 +204,23 @@ function AboutSection() {
 function ExperienceSection() {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Innovators Inc.',
-      duration: 'Jan 2020 - Present',
-      description: 'Lead development of scalable web applications using React and Node.js. Implemented microservices architecture, improving system efficiency by 40%.',
-    },
-    {
-      title: 'Full Stack Developer',
-      company: 'WebSolutions Co.',
-      duration: 'Mar 2018 - Dec 2019',
-      description: 'Developed and maintained multiple client websites. Integrated payment gateways and implemented responsive designs, increasing mobile traffic by 25%.',
-    },
-    {
-      title: 'Junior Web Developer',
-      company: 'StartUp Dynamics',
-      duration: 'Jun 2016 - Feb 2018',
-      description: 'Assisted in front-end development using HTML, CSS, and JavaScript. Collaborated with the design team to implement UI/UX improvements.',
-    },
+      title: 'Java FullStack Intern',
+      company: 'Coincent, Pune',
+      duration: 'Jun 2021 - Aug 2021',
+      description: 'Created Login, Logout landing pages, and implemented OAuth using Spring Security. Developed RESTful APIs for user authentication and authorization.',
+    }
+    // {
+    //   title: 'Full Stack Developer',
+    //   company: 'WebSolutions Co.',
+    //   duration: 'Mar 2018 - Dec 2019',
+    //   description: 'Developed and maintained multiple client websites. Integrated payment gateways and implemented responsive designs, increasing mobile traffic by 25%.',
+    // },
+    // {
+    //   title: 'Junior Web Developer',
+    //   company: 'StartUp Dynamics',
+    //   duration: 'Jun 2016 - Feb 2018',
+    //   description: 'Assisted in front-end development using HTML, CSS, and JavaScript. Collaborated with the design team to implement UI/UX improvements.',
+    // },
   ]
 
   return (
@@ -250,20 +250,20 @@ function ExperienceSection() {
 function EducationSection() {
   const education = [
     {
-      degree: 'Master of Science in Computer Science',
-      school: 'Tech University',
-      year: '2016',
+      degree: 'Bachelor of Computer Science',
+      school: 'Integral University, Lucknow',
+      year: '2022 - 2026',
     },
     {
-      degree: 'Bachelor of Science in Software Engineering',
-      school: 'State University',
-      year: '2014',
+      degree: 'Senior Secondary School',
+      school: 'SARD Evening Degree Collage, Gopalganj',
+      year: '2020 - 2022',
     },
   ]
 
   const certifications = [
-    'AWS Certified Developer - Associate',
-    'MongoDB Certified Developer',
+    'SpringBoot Cloud Certificate Course - Google',
+    'FrontEnd Certification - Coincent',
     'Google Cloud Professional Developer',
   ]
 
@@ -310,11 +310,12 @@ function EducationSection() {
 
 function SkillsSection() {
   const technicalSkills = [
-    { name: 'JavaScript', level: 90 },
-    { name: 'React', level: 85 },
-    { name: 'Node.js', level: 80 },
-    { name: 'Python', level: 75 },
-    { name: 'SQL', level: 70 },
+    { name: 'Java', level: 90 },
+    { name: 'SpringBoot', level: 85 },
+    { name: 'SQL', level: 80 },
+    { name: 'Google Cloud', level: 75 },
+    { name: 'C', level: 70 },
+    { name: 'JavaScript', level: 70 },
   ]
 
   const softSkills = ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability', 'Time Management']
@@ -374,21 +375,21 @@ function PortfolioSection() {
       description: 'A full-stack e-commerce solution with real-time inventory management.',
       techStack: ['React', 'Node.js', 'MongoDB', 'Redux'],
       image: '/placeholder.svg?height=200&width=300',
-      link: 'https://github.com/johndoe/ecommerce-platform',
+      link: 'https://github.com/yusuf7861',
     },
     {
       title: 'Task Management App',
       description: 'A collaborative task management tool with real-time updates.',
       techStack: ['Vue.js', 'Firebase', 'Vuex'],
       image: '/placeholder.svg?height=200&width=300',
-      link: 'https://github.com/johndoe/task-management-app',
+      link: 'https://github.com/yusuf7861',
     },
     {
       title: 'Weather Forecast Dashboard',
       description: 'An interactive weather dashboard with data visualization.',
       techStack: ['React', 'D3.js', 'OpenWeather API'],
       image: '/placeholder.svg?height=200&width=300',
-      link: 'https://github.com/johndoe/weather-dashboard',
+      link: 'https://github.com/yusuf7861/weather-forecast',
     },
   ]
 
@@ -436,19 +437,19 @@ function PortfolioSection() {
 function TestimonialsSection() {
   const testimonials = [
     {
-      quote: "John is an exceptional developer with a keen eye for detail. His ability to solve complex problems is truly impressive.",
-      author: "Sarah Johnson",
-      title: "CTO, Tech Innovators Inc.",
+      quote: "Yusuf is an exceptional developer with a keen eye for detail. His ability to solve complex problems is truly impressive.",
+      author: "Taha Iftikhar",
+      title: "Google Bengaluru",
     },
     {
-      quote: "Working with John was a pleasure. He consistently delivered high-quality code and was always willing to go the extra mile.",
-      author: "Michael Chen",
-      title: "Project Manager, WebSolutions Co.",
+      quote: "Working with Yusuf was a pleasure. He consistently delivered high-quality code and was always willing to go the extra mile.",
+      author: "Wasi Akhtar",
+      title: "Banker at SBI",
     },
     {
-      quote: "John's expertise in full-stack development significantly improved our project's performance and user experience.",
-      author: "Emily Rodriguez",
-      title: "Lead Developer, StartUp Dynamics",
+      quote: "Yusuf's expertise in full-stack development significantly improved our project's performance and user experience.",
+      author: "Tausheer Alam Shah",
+      title: "TCS Dubai",
     },
   ]
 
@@ -498,7 +499,7 @@ function ContactSection() {
             <Button type="submit" className="w-full">Send Message</Button>
           </form>
           <div className="mt-8 text-center">
-            <p className="text-gray-600 mb-4">john.doe@example.com</p>
+            <p className="text-gray-600 mb-4">yjamal710@gmail.com</p>
             <div className="flex justify-center space-x-4">
               <a href="#" className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">LinkedIn</span>
