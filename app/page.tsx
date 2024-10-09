@@ -2,6 +2,7 @@
 
 
 import { Button } from "@/components/ui/button"
+import Image from 'next/image'
 // import {
 //   DropdownMenu,
 //   DropdownMenuContent,
@@ -122,11 +123,13 @@ function HeroSection() {
           animate={{ scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <img
-            src="/placeholder.svg?height=200&width=200"
-            alt="John Doe"
-            className="rounded-full w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-cover mx-auto"
-          />
+        <Image
+          src="/placeholder.svg"
+          alt="John Doe"
+          width={200}
+          height={200}
+          className="rounded-full w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-cover mx-auto"
+        />
         </motion.div>
         <motion.h1
           className="mb-4 text-3xl sm:text-4xl font-bold"
