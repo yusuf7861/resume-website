@@ -181,14 +181,12 @@ function AboutSection() {
         <h2 className="mb-8 text-3xl font-bold text-center">About Me</h2>
         <div className="max-w-3xl mx-auto">
           <p className="mb-6 text-gray-600">
-            I&apos;m a Full Stack Developer with a passion for building scalable and efficient web applications. 
+            I&apos;m a Java Full Stack Developer with a passion for building scalable and efficient web applications. 
             With a strong foundation in both front-end and back-end technologies, I strive to create 
             seamless user experiences while ensuring robust and maintainable codebases.
           </p>
           <p className="mb-6 text-gray-600">
-            My journey in software development began 5 years ago, and since then, I&apos;ve had the opportunity 
-            to work on diverse projects ranging from e-commerce platforms to data-intensive applications. 
-            I&apos;m constantly learning and adapting to new technologies to stay at the forefront of web development.
+          My journey has been full of learning and growth. I started with a lot of curiosity and a strong desire to understand technology and how things work. As I moved forward, I faced many challenges that sometimes felt tough, but they made me stronger and more determined. I spent hours learning new things, building projects, and improving my skills, and I found a real joy in turning my ideas into reality. This journey has taught me more than just technical skills—it has shown me the value of always being open to learn and grow. Today, I feel more confident and excited about what comes next. I'm ready to take on new challenges and make a difference in the world with the skills I’ve gained.
           </p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
             {['JavaScript', 'React', 'Node.js', 'Python'].map((skill) => (
